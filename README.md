@@ -2,7 +2,7 @@
 
 **Computer Science student** · Infrastructure, Security & Automation · Limeira, São Paulo
 
-I build things that work in production — not just in tutorials.
+No one love's more security automation than me 🤓☝️
 
 ---
 
