@@ -9,7 +9,7 @@ No one love's more security automation than me 🤓☝️
 ## Projects
 
 **[Nerdy — Security Intelligence Platform](https://github.com/Theo-Panella/Nerdy)**  
-SIEM with automated log analysis, multi-factor criticality scoring and real-time threat response. Parses SSH and Nginx logs, normalizes events to YAML, integrates with Elasticsearch and triggers Ansible playbooks for automated IP blocking on critical events. Web dashboard live at [nerdymap-rxvlzwyc.manus.space](https://nerdymap-rxvlzwyc.manus.space).  
+SIEM with automated log analysis, multi-factor criticality scoring and real-time threat response. Parses Nginx and WEB aplications logs, normalizes events to YAML, integrates with Elasticsearch and triggers Ansible playbooks for automated IP blocking on critical events. Web dashboard live at [nerdymap-rxvlzwyc.manus.space](https://nerdymap-rxvlzwyc.manus.space).  
 `Python` `Ansible` `Elasticsearch` `Regex` `CI/CD` `MITRE ATT&CK`
 
 **[BastionHost Project — Secure AWS Architecture](https://github.com/Theo-Panella/BastionHost_Project)**  
