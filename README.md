@@ -2,7 +2,7 @@
 
 **Computer Science student** · Infrastructure, Security & Automation · Limeira, São Paulo
 
-No one love's security automation more than me 🤓☝️
+No one love's more security automation than me 🤓☝️
 
 ---
 
