@@ -12,9 +12,9 @@ No one love's more security automation than me 🤓☝️
 SIEM with automated log analysis, multi-factor criticality scoring and real-time threat response. Parses Nginx and WEB aplications logs, normalizes events to YAML, integrates with Elasticsearch and triggers Ansible playbooks for automated IP blocking on critical events. Web dashboard live at [nerdysec.dev](https://nerdysec.dev).  
 `Python` `Ansible` `Elasticsearch` `Regex` `CI/CD` `MITRE ATT&CK`
 
-**[BastionHost Project — Secure AWS Architecture](https://github.com/Theo-Panella/BastionHost_Project)**  
-Two-VPC architecture with VPC Peering, ACL-based subnet isolation, Security Groups and SSH Agent Forwarding. Documented from scratch: subnet ACLs, EC2 configuration, Security Groups and VPC Peering in separate reference files.  
-`AWS EC2` `VPC Peering` `ACLs` `Security Groups` `Network Segmentation`
+**[BastionHost_AWS — Infrastructure as Code & Secure Network Lab](https://github.com/Theo-Panella/BastionHost_AWS)**  
+Terraform-provisioned AWS VPC segmented into three /26 subnets, with a public Bastion, a private application host and an adversarial instance used to empirically validate isolation. Dual-layer defense with Security Groups and stateless NACLs. CI/CD via GitHub Actions using OIDC/STS keyless authentication, S3 remote backend and Trivy IaC scanning with SARIF output to the GitHub Security tab.  
+`Terraform` `AWS VPC` `IaC` `GitHub Actions` `OIDC/STS` `Trivy` `NACLs` `Security Groups`
 
 **[Project AOC — Ansible Open Configuration](https://github.com/Theo-Panella/Project_AOC)**  
 Mass workstation provisioning via Ansible: SSH hardening, UFW rules, RDP access, LightDM/Systemd configuration and Node.js deployment — all idempotent, with secrets managed through Ansible Vault.  
