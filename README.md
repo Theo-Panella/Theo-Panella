@@ -9,8 +9,8 @@ No one love's more security automation than me 🤓☝️
 ## Projects
 
 **[MiniMim — Log Collection Agent](https://github.com/Theo-Panella/MiniMim)**  
-Lightweight Python log agent built for high-throughput collection. Uses inotify for real-time file watching with inode-based offset tracking to survive logrotate, O(1) rule dispatch by `program_name` from YAML-compiled rulesets, and batched delivery with retry/backoff over RabbitMQ. Feeds a detection pipeline with Elasticsearch indexing and MITRE ATT&CK-mapped scoring. Benchmarked against Wazuh as the basis for an undergraduate thesis.  
-`Python` `inotify` `RabbitMQ` `YAML` `Elasticsearch` `MITRE ATT&CK`
+Lightweight Python log agent built for high-throughput collection. Uses inotify for real-time file watching with inode-based offset tracking to survive logrotate, rule dispatch by `program_name` from YAML-compiled rulesets, and batched delivery with retry/.  
+`Python` `inotify` `YAML` `MITRE ATT&CK`
 
 **[BastionHost_AWS — Infrastructure as Code & Secure Network Lab](https://github.com/Theo-Panella/BastionHost_AWS)**  
 Terraform-provisioned AWS VPC segmented into three /26 subnets, with a public Bastion, a private application host and an adversarial instance used to empirically validate isolation. Dual-layer defense with Security Groups and stateless NACLs. CI/CD via GitHub Actions using OIDC/STS keyless authentication, S3 remote backend and Trivy IaC scanning with SARIF output to the GitHub Security tab.  
